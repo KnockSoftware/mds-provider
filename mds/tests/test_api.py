@@ -63,16 +63,17 @@ class APITest(unittest.TestCase):
                     items.append(item)
             return items
 
-    def test_single_provider(self):
+    def test_single_provider_paging_enabled(self):
         # empty provider should return zero trips
         trips = self._all_items_from_app(self.empty_app, 'trips')
         self.assertEqual(len(trips), 0)
 
         # 100-trip provider should return all trips
         trips = self._all_items_from_app(self.bogus_data_app, 'trips')
-
-        # Turn off paging; should get just first 20 trips
         self.assertEqual(len(trips), 100)
+
+    def test_single_provider_disable_paging(self):
+        # Turn off paging; should get just first 20 trips
         trips = self._all_items_from_app(self.bogus_data_app, 'trips',
                                          get_method_kwargs=dict(paging=False))
         self.assertEqual(len(trips), 20)

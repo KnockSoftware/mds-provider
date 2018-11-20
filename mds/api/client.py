@@ -4,27 +4,12 @@ MDS Provider API client implementation.
 
 from datetime import datetime
 import json
+import requests
 import mds
 from mds.api.auth import OAuthClientCredentialsAuth
 from mds.providers import get_registry, Provider
 
-
-class ProviderClient(OAuthClientCredentialsAuth):
-    """
-    Client for MDS Provider APIs
-    """
-    def __init__(self, providers=None, ref=None):
-        """
-        Initialize a new ProviderClient object.
-
-        :providers: is a list of Providers this client tracks by default. If None is given, downloads and uses the official Provider registry.
-
-        When using the official Providers registry, :ref: could be any of:
-            - git branch name
-            - commit hash (long or short)
-            - git tag
-        """
-        self.providers = providers if providers is not None else get_registry(ref)
+class ProviderClientBase(OAuthClientCredentialsAuth):
 
     def _auth_session(self, provider):
         """
@@ -50,6 +35,135 @@ class ProviderClient(OAuthClientCredentialsAuth):
 
         return url
 
+    def _date_format(self, dt):
+        """
+        Internal helper to format datetimes for querystrings.
+        """
+        return int(dt.timestamp()) if isinstance(dt, datetime) else int(dt)
+
+    def _prepare_status_changes_params(
+        self,
+        start_time=None,
+        end_time=None,
+        bbox=None,
+        **kwargs):
+
+        # convert datetimes to querystring friendly format
+        if start_time is not None:
+            start_time = self._date_format(start_time)
+        if end_time is not None:
+            end_time = self._date_format(end_time)
+
+        # gather all the params together
+        return {
+            **dict(start_time=start_time, end_time=end_time, bbox=bbox),
+            **kwargs
+        }
+
+    def _prepare_trips_params(
+        self,
+        device_id=None,
+        vehicle_id=None,
+        start_time=None,
+        end_time=None,
+        bbox=None,
+        **kwargs):
+
+        # convert datetimes to querystring friendly format
+        if start_time is not None:
+            start_time = self._date_format(start_time)
+        if end_time is not None:
+            end_time = self._date_format(end_time)
+
+        # gather all the params togethers
+        return {
+            **dict(device_id=device_id, vehicle_id=vehicle_id, start_time=start_time, end_time=end_time, bbox=bbox),
+            **kwargs
+        }
+
+
+class SingleProviderClient(ProviderClientBase):
+    def __init__(self, provider):
+        self.provider = provider
+
+    def get_trips(self, **kwargs):
+        return list(self.iterate_trips_pages(**kwargs))
+
+    def get_status_changes(self, **kwargs):
+        return list(self.iterate_status_change_pages(**kwargs))
+
+    def iterate_trips_pages(self, paging=True, **kwargs):
+        params = self._prepare_trips_params(**kwargs)
+        return self.request(mds.TRIPS, params, paging)
+
+    def iterate_status_change_pages(self, paging=True, **kwargs):
+        params = self._prepare_status_changes_params(**kwargs)
+        return self.request(mds.STATUS_CHANGES, params, paging)
+
+    def request(self, endpoint, params, paging):
+        url = self._build_url(self.provider, endpoint)
+        session = self._auth_session(self.provider)
+        for page in self._iterate_pages_from_session(session, endpoint, url, params):
+            yield page
+            if not paging:
+                break
+
+    def _iterate_pages_from_session(self, session, endpoint, url, params):
+        """
+        Request items from endpoint, following pages
+        """
+
+        def __has_data(page):
+            """
+            Checks if this :page: has a "data" property with a non-empty payload
+            """
+            data = page["data"] if "data" in page else {"__payload__": []}
+            payload = data[endpoint] if endpoint in data else []
+            print(f"Got payload with {len(payload)} {endpoint}")
+            return len(payload) > 0
+
+        def __next_url(page):
+            """
+            Gets the next URL or None from :page:
+            """
+            return page["links"].get("next") if "links" in page else None
+
+        response = session.get(url, params=params)
+        response.raise_for_status()
+
+        this_page = response.json()
+        if __has_data(this_page):
+            yield this_page
+
+            next_url = __next_url(this_page)
+            while next_url is not None:
+                response = session.get(next_url)
+                response.raise_for_status()
+                this_page = response.json()
+                if __has_data(this_page):
+                    yield this_page
+                    next_url = __next_url(this_page)
+                else:
+                    break
+
+
+class ProviderClient(ProviderClientBase):
+    """
+    Client for MDS Provider APIs
+    """
+    def __init__(self, providers=None, ref=None):
+        """
+        Initialize a new ProviderClient object.
+
+        :providers: is a list of Providers this client tracks by default. If None is given, downloads and uses the official Provider registry.
+
+        When using the official Providers registry, :ref: could be any of:
+            - git branch name
+            - commit hash (long or short)
+            - git tag
+        """
+        self.providers = providers if providers is not None else get_registry(ref)
+
     def _request(self, providers, endpoint, params, paging):
         """
         Internal helper for sending requests.
@@ -68,76 +182,19 @@ class ProviderClient(OAuthClientCredentialsAuth):
             if r.status_code is not 200:
                 print(r.text)
 
-        def __has_data(page):
-            """
-            Checks if this :page: has a "data" property with a non-empty payload
-            """
-            data = page["data"] if "data" in page else {"__payload__": []}
-            payload = data[endpoint] if endpoint in data else []
-            print(f"Got payload with {len(payload)} {endpoint}")
-            return len(payload) > 0
-
-        def __next_url(page):
-            """
-            Gets the next URL or None from :page:
-            """
-            return page["links"].get("next") if "links" in page else None
-
-        # create a request url for each provider
-        urls = [self._build_url(p, endpoint) for p in providers]
-
-        # keyed by provider
         results = {}
-
-        for i in range(len(providers)):
-            provider, url = providers[i], urls[i]
-
-            # establish an authenticated session
-            session = self._auth_session(provider)
-
-            # get the initial page of data
-            r = session.get(url, params=params)
-
-            if r.status_code is not 200:
-                __describe(r)
-                continue
-
-            this_page = r.json()
-
-            # track the list of pages per provider
-            results[provider] = [this_page] if __has_data(this_page) else []
-
-            # get subsequent pages of data
-            next_url = __next_url(this_page)
-            while paging and next_url:
-                r = session.get(next_url)
-
-                if r.status_code is not 200:
-                    __describe(r)
-                    break
-
-                this_page = r.json()
-
-                if __has_data(this_page):
-                    results[provider].append(this_page)
-                    next_url = __next_url(this_page)
-                else:
-                    break
+        for provider in providers:
+            client = SingleProviderClient(provider)
+            try:
+                results[provider] = list(client.request(endpoint, params, paging))
+            except requests.RequestException as exc:
+                __describe(exc.response)
 
         return results
-
-    def _date_format(self, dt):
-        """
-        Internal helper to format datetimes for querystrings.
-        """
-        return int(dt.timestamp()) if isinstance(dt, datetime) else int(dt)
 
     def get_status_changes(
         self,
         providers=None,
-        start_time=None,
-        end_time=None,
-        bbox=None,
         paging=True,
         **kwargs):
         """
@@ -168,17 +225,7 @@ class ProviderClient(OAuthClientCredentialsAuth):
         if providers is None:
             providers = self.providers
 
-        # convert datetimes to querystring friendly format
-        if start_time is not None:
-            start_time = self._date_format(start_time)
-        if end_time is not None:
-            end_time = self._date_format(end_time)
-
-        # gather all the params together
-        params = {
-            **dict(start_time=start_time, end_time=end_time, bbox=bbox),
-            **kwargs
-        }
+        params = self._prepare_status_changes_params(**kwargs)
 
         # make the request(s)
         status_changes = self._request(providers, mds.STATUS_CHANGES, params, paging)
@@ -188,11 +235,6 @@ class ProviderClient(OAuthClientCredentialsAuth):
     def get_trips(
         self,
         providers=None,
-        device_id=None,
-        vehicle_id=None,
-        start_time=None,
-        end_time=None,
-        bbox=None,
         paging=True,
         **kwargs):
         """
@@ -227,17 +269,7 @@ class ProviderClient(OAuthClientCredentialsAuth):
         if providers is None:
             providers = self.providers
 
-        # convert datetimes to querystring friendly format
-        if start_time is not None:
-            start_time = self._date_format(start_time)
-        if end_time is not None:
-            end_time = self._date_format(end_time)
-
-        # gather all the params togethers
-        params = {
-            **dict(device_id=device_id, vehicle_id=vehicle_id, start_time=start_time, end_time=end_time, bbox=bbox),
-            **kwargs
-        }
+        params = self._prepare_trips_params(**kwargs)
 
         # make the request(s)
         trips = self._request(providers, mds.TRIPS, params, paging)
