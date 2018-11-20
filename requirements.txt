@@ -1,0 +1,17 @@
+
+Fiona
+geopandas
+jsonschema >= 3.0.0a2
+numpy
+pandas
+psycopg2-binary
+requests
+scipy
+Shapely
+sqlalchemy
+
+flask
+urllib3
+requests
+requests_mock
+ipdb
