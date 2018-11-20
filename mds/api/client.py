@@ -1,5 +1,5 @@
 """
-MDS Provider API client implementation. 
+MDS Provider API client implementation.
 """
 
 from datetime import datetime
@@ -155,7 +155,7 @@ class ProviderClient(OAuthClientCredentialsAuth):
                           Should be a datetime object or numeric representation of UNIX seconds
 
             - `bbox`: Filters for status changes where `event_location` is within defined bounding-box.
-                      The order is defined as: southwest longitude, southwest latitude, 
+                      The order is defined as: southwest longitude, southwest latitude,
                       northeast longitude, northeast latitude (separated by commas).
 
                       e.g.
@@ -214,7 +214,7 @@ class ProviderClient(OAuthClientCredentialsAuth):
                           Should be a datetime object or numeric representation of UNIX seconds
 
             - `bbox`: Filters for trips where and point within `route` is within defined bounding-box.
-                      The order is defined as: southwest longitude, southwest latitude, 
+                      The order is defined as: southwest longitude, southwest latitude,
                       northeast longitude, northeast latitude (separated by commas).
 
                       e.g.
@@ -234,7 +234,7 @@ class ProviderClient(OAuthClientCredentialsAuth):
             end_time = self._date_format(end_time)
 
         # gather all the params togethers
-        params = { 
+        params = {
             **dict(device_id=device_id, vehicle_id=vehicle_id, start_time=start_time, end_time=end_time, bbox=bbox),
             **kwargs
         }
