@@ -5,7 +5,7 @@ from urllib3.util import parse_url
 
 from mds.fake.server import make_static_server_app
 from mds.providers import Provider
-from mds.api import ProviderClient
+from mds.api import MultipleProviderClient
 
 
 def requests_mock_with_app(app, netloc='testserver'):
@@ -53,7 +53,7 @@ class APITest(unittest.TestCase):
 
     def _all_items_from_app(self, app, endpoint='trips', get_method_kwargs={}):
         with mock_provider(app) as provider:
-            client = ProviderClient(providers=[provider])
+            client = MultipleProviderClient(providers=[provider])
             method = getattr(client, f'get_{endpoint}')
             pages_by_provider = method(**get_method_kwargs)
 
