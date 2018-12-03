@@ -82,7 +82,7 @@ class ProviderClientBase(OAuthClientCredentialsAuth):
         }
 
 
-class SingleProviderClient(ProviderClientBase):
+class ProviderClient(ProviderClientBase):
     def __init__(self, provider):
         self.provider = provider
 
@@ -147,13 +147,13 @@ class SingleProviderClient(ProviderClientBase):
                     break
 
 
-class ProviderClient(ProviderClientBase):
+class MultipleProviderClient(ProviderClientBase):
     """
     Client for MDS Provider APIs
     """
     def __init__(self, providers=None, ref=None):
         """
-        Initialize a new ProviderClient object.
+        Initialize a new MultipleProviderClient object.
 
         :providers: is a list of Providers this client tracks by default. If None is given, downloads and uses the official Provider registry.
 
@@ -164,7 +164,7 @@ class ProviderClient(ProviderClientBase):
         """
         self.providers = providers if providers is not None else get_registry(ref)
 
-    def _request(self, providers, endpoint, params, paging):
+    def _request_from_providers(self, providers, endpoint, params, paging):
         """
         Internal helper for sending requests.
 
@@ -184,7 +184,7 @@ class ProviderClient(ProviderClientBase):
 
         results = {}
         for provider in providers:
-            client = SingleProviderClient(provider)
+            client = ProviderClient(provider)
             try:
                 results[provider] = list(client.request(endpoint, params, paging))
             except requests.RequestException as exc:
@@ -228,7 +228,7 @@ class ProviderClient(ProviderClientBase):
         params = self._prepare_status_changes_params(**kwargs)
 
         # make the request(s)
-        status_changes = self._request(providers, mds.STATUS_CHANGES, params, paging)
+        status_changes = self._request_from_providers(providers, mds.STATUS_CHANGES, params, paging)
 
         return status_changes
 
@@ -272,6 +272,6 @@ class ProviderClient(ProviderClientBase):
         params = self._prepare_trips_params(**kwargs)
 
         # make the request(s)
-        trips = self._request(providers, mds.TRIPS, params, paging)
+        trips = self._request_from_providers(providers, mds.TRIPS, params, paging)
 
         return trips
