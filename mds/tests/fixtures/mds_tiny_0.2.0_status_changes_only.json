@@ -1,0 +1,1972 @@
+[
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "08bfc097-70b6-41f7-b9e7-238b71b49250",
+        "vehicle_id": "D8PMNS",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric"
+        ],
+        "battery_pct": 1.0,
+        "event_type": "available",
+        "event_type_reason": "service_start",
+        "event_time": 1544507545.035672,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.67997436226106,
+                    45.391839383840626
+                ]
+            },
+            "properties": {
+                "timestamp": 1544507545.035672
+            }
+        },
+        "associated_trips": null
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 1.0,
+        "event_type": "available",
+        "event_type_reason": "service_start",
+        "event_time": 1544508752.886242,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.64865572278676,
+                    45.62786565607143
+                ]
+            },
+            "properties": {
+                "timestamp": 1544508752.886242
+            }
+        },
+        "associated_trips": []
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "available",
+        "event_type_reason": "service_start",
+        "event_time": 1544506620.654661,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.75271238600399,
+                    45.533356175822696
+                ]
+            },
+            "properties": {
+                "timestamp": 1544506620.654661
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "08bfc097-70b6-41f7-b9e7-238b71b49250",
+        "vehicle_id": "D8PMNS",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric"
+        ],
+        "battery_pct": 1.0,
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_time": 1544514202.526848,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.67997436226106,
+                    45.391839383840626
+                ]
+            },
+            "properties": {
+                "timestamp": 1544507545.035672
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "08bfc097-70b6-41f7-b9e7-238b71b49250",
+        "vehicle_id": "D8PMNS",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric"
+        ],
+        "battery_pct": 0.743646770793564,
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_time": 1544514674.345742,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.68127293484119,
+                    45.40876863084977
+                ]
+            },
+            "properties": {
+                "timestamp": 1544514674.345742
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 1.0,
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_time": 1544512582.743511,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.64865572278676,
+                    45.62786565607143
+                ]
+            },
+            "properties": {
+                "timestamp": 1544508752.886242
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 0.722909191600399,
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_time": 1544513154.15886,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.67795737547921,
+                    45.62917352136674
+                ]
+            },
+            "properties": {
+                "timestamp": 1544513154.15886
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_time": 1544512665.207284,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.75271238600399,
+                    45.533356175822696
+                ]
+            },
+            "properties": {
+                "timestamp": 1544506620.654661
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_time": 1544513401.253133,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.7769407303836,
+                    45.553643341722626
+                ]
+            },
+            "properties": {
+                "timestamp": 1544513401.253133
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 0.722909191600399,
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_time": 1544513474.724775,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.67795737547921,
+                    45.62917352136674
+                ]
+            },
+            "properties": {
+                "timestamp": 1544513154.15886
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 0.5395137954967761,
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_time": 1544513867.703248,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.68240767746428,
+                    45.61539998944145
+                ]
+            },
+            "properties": {
+                "timestamp": 1544513867.703248
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_time": 1544516134.323204,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.7769407303836,
+                    45.553643341722626
+                ]
+            },
+            "properties": {
+                "timestamp": 1544513401.253133
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_time": 1544517234.006464,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.83328028078024,
+                    45.555895592688536
+                ]
+            },
+            "properties": {
+                "timestamp": 1544517234.006464
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "08bfc097-70b6-41f7-b9e7-238b71b49250",
+        "vehicle_id": "D8PMNS",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric"
+        ],
+        "battery_pct": 0.7304434320301758,
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_time": 1544518081.39188,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.68127293484119,
+                    45.40876863084977
+                ]
+            },
+            "properties": {
+                "timestamp": 1544514674.345742
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "08bfc097-70b6-41f7-b9e7-238b71b49250",
+        "vehicle_id": "D8PMNS",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric"
+        ],
+        "battery_pct": 0.5683005817866493,
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_time": 1544518353.010243,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.66742695137913,
+                    45.40789201095082
+                ]
+            },
+            "properties": {
+                "timestamp": 1544518353.010243
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 0.5395137954967761,
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_time": 1544515776.172573,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.68240767746428,
+                    45.61539998944145
+                ]
+            },
+            "properties": {
+                "timestamp": 1544513867.703248
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 0.40073000473637027,
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_time": 1544516105.128334,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.6660734429102,
+                    45.61237104329849
+                ]
+            },
+            "properties": {
+                "timestamp": 1544516105.128334
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_time": 1544517782.470735,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.83328028078024,
+                    45.555895592688536
+                ]
+            },
+            "properties": {
+                "timestamp": 1544517234.006464
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_time": 1544518298.717708,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.82751792436189,
+                    45.574001814832904
+                ]
+            },
+            "properties": {
+                "timestamp": 1544518298.717708
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "08bfc097-70b6-41f7-b9e7-238b71b49250",
+        "vehicle_id": "D8PMNS",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric"
+        ],
+        "battery_pct": 0.5683005817866493,
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_time": 1544521527.648049,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.66742695137913,
+                    45.40789201095082
+                ]
+            },
+            "properties": {
+                "timestamp": 1544518353.010243
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "08bfc097-70b6-41f7-b9e7-238b71b49250",
+        "vehicle_id": "D8PMNS",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric"
+        ],
+        "battery_pct": 0.35444352815301383,
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_time": 1544522527.111438,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.67594669992188,
+                    45.372480382250686
+                ]
+            },
+            "properties": {
+                "timestamp": 1544522527.111438
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 0.40073000473637027,
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_time": 1544518699.896466,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.6660734429102,
+                    45.61237104329849
+                ]
+            },
+            "properties": {
+                "timestamp": 1544516105.128334
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 0.23435464619692414,
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_time": 1544519800.868333,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.64182314343618,
+                    45.64811323594745
+                ]
+            },
+            "properties": {
+                "timestamp": 1544519800.868333
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_time": 1544521139.263082,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.82751792436189,
+                    45.574001814832904
+                ]
+            },
+            "properties": {
+                "timestamp": 1544518298.717708
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_time": 1544522532.928287,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.89521702571024,
+                    45.557830244263144
+                ]
+            },
+            "properties": {
+                "timestamp": 1544522532.928287
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "08bfc097-70b6-41f7-b9e7-238b71b49250",
+        "vehicle_id": "D8PMNS",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric"
+        ],
+        "battery_pct": 0.35444352815301383,
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_time": 1544522609.178432,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.67594669992188,
+                    45.372480382250686
+                ]
+            },
+            "properties": {
+                "timestamp": 1544522527.111438
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "08bfc097-70b6-41f7-b9e7-238b71b49250",
+        "vehicle_id": "D8PMNS",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric"
+        ],
+        "battery_pct": 0.2390659508492765,
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_time": 1544523070.330492,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.65954861789315,
+                    45.384392927209326
+                ]
+            },
+            "properties": {
+                "timestamp": 1544523070.330492
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 0.23435464619692414,
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_time": 1544522531.937509,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.64182314343618,
+                    45.64811323594745
+                ]
+            },
+            "properties": {
+                "timestamp": 1544519800.868333
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 0.11628428784405657,
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_time": 1544523895.289194,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.61094063801208,
+                    45.6920929799008
+                ]
+            },
+            "properties": {
+                "timestamp": 1544523895.289194
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_time": 1544524929.072807,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.89521702571024,
+                    45.557830244263144
+                ]
+            },
+            "properties": {
+                "timestamp": 1544522532.928287
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_time": 1544526326.262263,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.84460425889422,
+                    45.52227949382284
+                ]
+            },
+            "properties": {
+                "timestamp": 1544526326.262263
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "08bfc097-70b6-41f7-b9e7-238b71b49250",
+        "vehicle_id": "D8PMNS",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric"
+        ],
+        "battery_pct": 0.2390659508492765,
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_time": 1544524979.371422,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.65954861789315,
+                    45.384392927209326
+                ]
+            },
+            "properties": {
+                "timestamp": 1544523070.330492
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "08bfc097-70b6-41f7-b9e7-238b71b49250",
+        "vehicle_id": "D8PMNS",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric"
+        ],
+        "battery_pct": 0.15168197930174143,
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_time": 1544525370.342137,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.67470279243341,
+                    45.393563529325434
+                ]
+            },
+            "properties": {
+                "timestamp": 1544525370.342137
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 0.11628428784405657,
+        "event_type": "unavailable",
+        "event_type_reason": "low_battery",
+        "event_time": 1544523895.289194,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.61094063801208,
+                    45.6920929799008
+                ]
+            },
+            "properties": {
+                "timestamp": 1544523895.289194
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_time": 1544526840.204412,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.84460425889422,
+                    45.52227949382284
+                ]
+            },
+            "properties": {
+                "timestamp": 1544526326.262263
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_time": 1544529061.564238,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.93448732972134,
+                    45.47327039995191
+                ]
+            },
+            "properties": {
+                "timestamp": 1544529061.564238
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 1.0,
+        "event_time": 1544523895.289194,
+        "event_type": "available",
+        "event_type_reason": "maintenance_drop_off",
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.5839543781992,
+                    45.41886094957372
+                ]
+            },
+            "properties": {
+                "timestamp": 1544523895.289194
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "08bfc097-70b6-41f7-b9e7-238b71b49250",
+        "vehicle_id": "D8PMNS",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric"
+        ],
+        "battery_pct": 0.15168197930174143,
+        "event_type": "unavailable",
+        "event_type_reason": "low_battery",
+        "event_time": 1544525370.342137,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.67470279243341,
+                    45.393563529325434
+                ]
+            },
+            "properties": {
+                "timestamp": 1544525370.342137
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_time": 1544530632.851557,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.93448732972134,
+                    45.47327039995191
+                ]
+            },
+            "properties": {
+                "timestamp": 1544529061.564238
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_time": 1544531757.224281,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.91989130184035,
+                    45.512355211025046
+                ]
+            },
+            "properties": {
+                "timestamp": 1544531757.224281
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_time": 1544531884.296473,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.91989130184035,
+                    45.512355211025046
+                ]
+            },
+            "properties": {
+                "timestamp": 1544531757.224281
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_time": 1544532608.997121,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.95048486816896,
+                    45.49757769346626
+                ]
+            },
+            "properties": {
+                "timestamp": 1544532608.997121
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 0.9528126761931214,
+        "event_time": 1544524911.79314,
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.5839543781992,
+                    45.41886094957372
+                ]
+            },
+            "properties": {
+                "timestamp": 1544523895.289194
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 0.6848731548685033,
+        "event_time": 1544525494.535635,
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.60194046954449,
+                    45.40215663796214
+                ]
+            },
+            "properties": {
+                "timestamp": 1544525494.535635
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_time": 1544533183.582276,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.95048486816896,
+                    45.49757769346626
+                ]
+            },
+            "properties": {
+                "timestamp": 1544532608.997121
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_time": 1544533352.477051,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.95516638619833,
+                    45.502682996786234
+                ]
+            },
+            "properties": {
+                "timestamp": 1544533352.477051
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 0.6848731548685033,
+        "event_time": 1544525959.436043,
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.60194046954449,
+                    45.40215663796214
+                ]
+            },
+            "properties": {
+                "timestamp": 1544525494.535635
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 0.47032715669997205,
+        "event_time": 1544526631.175288,
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.58401644545066,
+                    45.38156100599546
+                ]
+            },
+            "properties": {
+                "timestamp": 1544526631.175288
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_time": 1544535300.206669,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.95516638619833,
+                    45.502682996786234
+                ]
+            },
+            "properties": {
+                "timestamp": 1544533352.477051
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_time": 1544536372.807792,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.9671041982852,
+                    45.46506117576508
+                ]
+            },
+            "properties": {
+                "timestamp": 1544536372.807792
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 0.47032715669997205,
+        "event_time": 1544526915.35278,
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.58401644545066,
+                    45.38156100599546
+                ]
+            },
+            "properties": {
+                "timestamp": 1544526631.175288
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 0.300655567676586,
+        "event_time": 1544527725.95393,
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.59220212065318,
+                    45.4101153957808
+                ]
+            },
+            "properties": {
+                "timestamp": 1544527725.95393
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_time": 1544537985.891405,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.9671041982852,
+                    45.46506117576508
+                ]
+            },
+            "properties": {
+                "timestamp": 1544536372.807792
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_time": 1544538978.147272,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.95307878341613,
+                    45.43079123703573
+                ]
+            },
+            "properties": {
+                "timestamp": 1544538978.147272
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 0.300655567676586,
+        "event_time": 1544530232.090513,
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.59220212065318,
+                    45.4101153957808
+                ]
+            },
+            "properties": {
+                "timestamp": 1544527725.95393
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 0.1909912478703445,
+        "event_time": 1544530798.688042,
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.57206109636685,
+                    45.42476572267878
+                ]
+            },
+            "properties": {
+                "timestamp": 1544530798.688042
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_time": 1544540732.024549,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.95307878341613,
+                    45.43079123703573
+                ]
+            },
+            "properties": {
+                "timestamp": 1544538978.147272
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_time": 1544541016.157797,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.96630204136562,
+                    45.43504940676683
+                ]
+            },
+            "properties": {
+                "timestamp": 1544541016.157797
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 0.1909912478703445,
+        "event_time": 1544530798.688042,
+        "event_type": "unavailable",
+        "event_type_reason": "low_battery",
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.57206109636685,
+                    45.42476572267878
+                ]
+            },
+            "properties": {
+                "timestamp": 1544530798.688042
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 1.0,
+        "event_time": 1544530798.688042,
+        "event_type": "available",
+        "event_type_reason": "maintenance_drop_off",
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.74501544569743,
+                    45.584081389720325
+                ]
+            },
+            "properties": {
+                "timestamp": 1544530798.688042
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_time": 1544543333.322718,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.96630204136562,
+                    45.43504940676683
+                ]
+            },
+            "properties": {
+                "timestamp": 1544541016.157797
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_time": 1544543992.008955,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.97542650695328,
+                    45.45783572874558
+                ]
+            },
+            "properties": {
+                "timestamp": 1544543992.008955
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 1.0,
+        "event_time": 1544534381.467905,
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.74501544569743,
+                    45.584081389720325
+                ]
+            },
+            "properties": {
+                "timestamp": 1544530798.688042
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 0.6987625842572468,
+        "event_time": 1544535080.861136,
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.74242275595007,
+                    45.55901583998692
+                ]
+            },
+            "properties": {
+                "timestamp": 1544535080.861136
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "08bfc097-70b6-41f7-b9e7-238b71b49250",
+        "vehicle_id": "D8PMNS",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric"
+        ],
+        "battery_pct": 1.0,
+        "event_time": 1544525370.342137,
+        "event_type": "available",
+        "event_type_reason": "maintenance_drop_off",
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.52473802698886,
+                    45.5107476683009
+                ]
+            },
+            "properties": {
+                "timestamp": 1544525370.342137
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_time": 1544544926.916215,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.97542650695328,
+                    45.45783572874558
+                ]
+            },
+            "properties": {
+                "timestamp": 1544543992.008955
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_time": 1544545518.131431,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.00519791899471,
+                    45.453937990334
+                ]
+            },
+            "properties": {
+                "timestamp": 1544545518.131431
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 0.6987625842572468,
+        "event_time": 1544536658.790359,
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.74242275595007,
+                    45.55901583998692
+                ]
+            },
+            "properties": {
+                "timestamp": 1544535080.861136
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 0.5427396714515282,
+        "event_time": 1544536925.86206,
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.72926028591347,
+                    45.56169249183718
+                ]
+            },
+            "properties": {
+                "timestamp": 1544536925.86206
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "08bfc097-70b6-41f7-b9e7-238b71b49250",
+        "vehicle_id": "D8PMNS",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric"
+        ],
+        "battery_pct": 1.0,
+        "event_time": 1544528868.478639,
+        "event_type": "reserved",
+        "event_type_reason": "user_pick_up",
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.52473802698886,
+                    45.5107476683009
+                ]
+            },
+            "properties": {
+                "timestamp": 1544525370.342137
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "08bfc097-70b6-41f7-b9e7-238b71b49250",
+        "vehicle_id": "D8PMNS",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric"
+        ],
+        "battery_pct": 0.6003953385105786,
+        "event_time": 1544530222.754754,
+        "event_type": "available",
+        "event_type_reason": "user_drop_off",
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.46367196310324,
+                    45.53393270847247
+                ]
+            },
+            "properties": {
+                "timestamp": 1544530222.754754
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "event_type": "removed",
+        "event_type_reason": "service_end",
+        "event_time": 1544562371.205162,
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.00519791899471,
+                    45.453937990334
+                ]
+            },
+            "properties": {
+                "timestamp": 1544562371.205162
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "battery_pct": 0.5427396714515282,
+        "event_time": 1544563729.440334,
+        "event_type": "removed",
+        "event_type_reason": "service_end",
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.72926028591347,
+                    45.56169249183718
+                ]
+            },
+            "properties": {
+                "timestamp": 1544563729.440334
+            }
+        }
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "08bfc097-70b6-41f7-b9e7-238b71b49250",
+        "vehicle_id": "D8PMNS",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric"
+        ],
+        "battery_pct": 0.6003953385105786,
+        "event_time": 1544562102.389788,
+        "event_type": "removed",
+        "event_type_reason": "service_end",
+        "event_location": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.46367196310324,
+                    45.53393270847247
+                ]
+            },
+            "properties": {
+                "timestamp": 1544562102.389788
+            }
+        }
+    }
+]

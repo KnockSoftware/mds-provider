@@ -1,0 +1,1505 @@
+[
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "08bfc097-70b6-41f7-b9e7-238b71b49250",
+        "vehicle_id": "D8PMNS",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric"
+        ],
+        "accuracy": 12,
+        "trip_id": "cedaca1c-5e12-41ce-9635-c0afe6121aad",
+        "trip_duration": 471,
+        "trip_distance": 1887,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.67997436226106,
+                            45.391839383840626
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544507545.035672
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.68127293484119,
+                            45.40876863084977
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544514674.345742
+                    }
+                }
+            ]
+        },
+        "start_time": 1544514202.526848,
+        "end_time": 1544514674.345742
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "accuracy": 4,
+        "trip_id": "801e3dbc-d47b-4e20-9862-eca76f379526",
+        "trip_duration": 571,
+        "trip_distance": 2285,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.64865572278676,
+                            45.62786565607143
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544508752.886242
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.67795737547921,
+                            45.62917352136674
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544513154.15886
+                    }
+                }
+            ]
+        },
+        "start_time": 1544512582.743511,
+        "end_time": 1544513154.15886,
+        "parking_verification_url": "https://fake_operator.co/haznu57.jpg",
+        "actual_cost": 261
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "accuracy": 2,
+        "trip_id": "5c09b6f7-6f14-4a4e-87df-02227c937fa7",
+        "trip_duration": 736,
+        "trip_distance": 2944,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.75271238600399,
+                            45.533356175822696
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544506620.654661
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.7769407303836,
+                            45.553643341722626
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544513401.253133
+                    }
+                }
+            ]
+        },
+        "start_time": 1544512665.207284,
+        "end_time": 1544513401.253133,
+        "parking_verification_url": "https://fake_operator.co/0axkyv3.jpg",
+        "standard_cost": 265,
+        "actual_cost": 275
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "accuracy": 7,
+        "trip_id": "67e60a31-e9df-422c-a513-a131bfa132e7",
+        "trip_duration": 392,
+        "trip_distance": 1571,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.67795737547921,
+                            45.62917352136674
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544513154.15886
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.68240767746428,
+                            45.61539998944145
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544513867.703248
+                    }
+                }
+            ]
+        },
+        "start_time": 1544513474.724775,
+        "end_time": 1544513867.703248,
+        "parking_verification_url": "https://fake_operator.co/00lw84b.jpg",
+        "standard_cost": 175
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "accuracy": 6,
+        "trip_id": "e5f40e23-ebb6-4494-9ea6-581454019818",
+        "trip_duration": 1099,
+        "trip_distance": 4398,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.7769407303836,
+                            45.553643341722626
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544513401.253133
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.83328028078024,
+                            45.555895592688536
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544517234.006464
+                    }
+                }
+            ]
+        },
+        "start_time": 1544516134.323204,
+        "end_time": 1544517234.006464
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "08bfc097-70b6-41f7-b9e7-238b71b49250",
+        "vehicle_id": "D8PMNS",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric"
+        ],
+        "accuracy": 3,
+        "trip_id": "0804b38d-35c6-46e6-b75e-e46e6eaaea7e",
+        "trip_duration": 271,
+        "trip_distance": 1086,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.68127293484119,
+                            45.40876863084977
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544514674.345742
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.66742695137913,
+                            45.40789201095082
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544518353.010243
+                    }
+                }
+            ]
+        },
+        "start_time": 1544518081.39188,
+        "end_time": 1544518353.010243,
+        "actual_cost": 174
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "accuracy": 0,
+        "trip_id": "eca11d06-8fab-41f9-b80b-cfb3c03d8aee",
+        "trip_duration": 328,
+        "trip_distance": 1315,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.68240767746428,
+                            45.61539998944145
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544513867.703248
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.6660734429102,
+                            45.61237104329849
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544516105.128334
+                    }
+                }
+            ]
+        },
+        "start_time": 1544515776.172573,
+        "end_time": 1544516105.128334,
+        "parking_verification_url": "https://fake_operator.co/eqlgrv3.jpg",
+        "standard_cost": 160
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "accuracy": 4,
+        "trip_id": "a0a9afef-0f4a-412c-bbdc-879e2a7e5842",
+        "trip_duration": 516,
+        "trip_distance": 2064,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.83328028078024,
+                            45.555895592688536
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544517234.006464
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.82751792436189,
+                            45.574001814832904
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544518298.717708
+                    }
+                }
+            ]
+        },
+        "start_time": 1544517782.470735,
+        "end_time": 1544518298.717708
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "08bfc097-70b6-41f7-b9e7-238b71b49250",
+        "vehicle_id": "D8PMNS",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric"
+        ],
+        "accuracy": 8,
+        "trip_id": "5a036f40-72a0-4479-a6d3-8ea5e37cb404",
+        "trip_duration": 999,
+        "trip_distance": 3997,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.66742695137913,
+                            45.40789201095082
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544518353.010243
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.67594669992188,
+                            45.372480382250686
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544522527.111438
+                    }
+                }
+            ]
+        },
+        "start_time": 1544521527.648049,
+        "end_time": 1544522527.111438,
+        "standard_cost": 325,
+        "actual_cost": 320
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "accuracy": 1,
+        "trip_id": "6e113c47-13f7-4f41-8564-cb471f95307c",
+        "trip_duration": 1100,
+        "trip_distance": 4403,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.6660734429102,
+                            45.61237104329849
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544516105.128334
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.64182314343618,
+                            45.64811323594745
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544519800.868333
+                    }
+                }
+            ]
+        },
+        "start_time": 1544518699.896466,
+        "end_time": 1544519800.868333,
+        "parking_verification_url": "https://fake_operator.co/kxmo9pz.jpg"
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "accuracy": 15,
+        "trip_id": "c6f0f967-21c8-4164-87b0-9d6c707c82da",
+        "trip_duration": 1393,
+        "trip_distance": 5574,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.82751792436189,
+                            45.574001814832904
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544518298.717708
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.89521702571024,
+                            45.557830244263144
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544522532.928287
+                    }
+                }
+            ]
+        },
+        "start_time": 1544521139.263082,
+        "end_time": 1544522532.928287,
+        "parking_verification_url": "https://fake_operator.co/3p1rzv5.jpg",
+        "actual_cost": 515
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "08bfc097-70b6-41f7-b9e7-238b71b49250",
+        "vehicle_id": "D8PMNS",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric"
+        ],
+        "accuracy": 0,
+        "trip_id": "17068a42-de69-4b93-a43e-fe9f964285f2",
+        "trip_duration": 461,
+        "trip_distance": 1844,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.67594669992188,
+                            45.372480382250686
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544522527.111438
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.65954861789315,
+                            45.384392927209326
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544523070.330492
+                    }
+                }
+            ]
+        },
+        "start_time": 1544522609.178432,
+        "end_time": 1544523070.330492,
+        "actual_cost": 235
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "accuracy": 9,
+        "trip_id": "ce5b9eb9-7949-487f-a1e1-4115be5e4a92",
+        "trip_duration": 1363,
+        "trip_distance": 5453,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.64182314343618,
+                            45.64811323594745
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544519800.868333
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.61094063801208,
+                            45.6920929799008
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544523895.289194
+                    }
+                }
+            ]
+        },
+        "start_time": 1544522531.937509,
+        "end_time": 1544523895.289194,
+        "standard_cost": 415
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "accuracy": 1,
+        "trip_id": "4eee4310-b6f3-4117-a651-2daf21bea701",
+        "trip_duration": 1397,
+        "trip_distance": 5588,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.89521702571024,
+                            45.557830244263144
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544522532.928287
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.84460425889422,
+                            45.52227949382284
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544526326.262263
+                    }
+                }
+            ]
+        },
+        "start_time": 1544524929.072807,
+        "end_time": 1544526326.262263,
+        "standard_cost": 430
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "08bfc097-70b6-41f7-b9e7-238b71b49250",
+        "vehicle_id": "D8PMNS",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric"
+        ],
+        "accuracy": 3,
+        "trip_id": "cd3eac05-6cac-45c5-8170-5e31e3c8c6ac",
+        "trip_duration": 390,
+        "trip_distance": 1563,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.65954861789315,
+                            45.384392927209326
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544523070.330492
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.67470279243341,
+                            45.393563529325434
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544525370.342137
+                    }
+                }
+            ]
+        },
+        "start_time": 1544524979.371422,
+        "end_time": 1544525370.342137,
+        "standard_cost": 175
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "accuracy": 3,
+        "trip_id": "f551ad4b-d548-4cea-811f-47ec28c0b26e",
+        "trip_duration": 2221,
+        "trip_distance": 8885,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.84460425889422,
+                            45.52227949382284
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544526326.262263
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.93448732972134,
+                            45.47327039995191
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544529061.564238
+                    }
+                }
+            ]
+        },
+        "start_time": 1544526840.204412,
+        "end_time": 1544529061.564238,
+        "standard_cost": 640
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "accuracy": 10,
+        "trip_id": "b530ad04-848f-41b1-88a1-741a44a8849c",
+        "trip_duration": 1124,
+        "trip_distance": 4497,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.93448732972134,
+                            45.47327039995191
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544529061.564238
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.91989130184035,
+                            45.512355211025046
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544531757.224281
+                    }
+                }
+            ]
+        },
+        "start_time": 1544530632.851557,
+        "end_time": 1544531757.224281
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "accuracy": 6,
+        "trip_id": "685fb95a-8354-4597-8e71-035c49789b7c",
+        "trip_duration": 724,
+        "trip_distance": 2898,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.91989130184035,
+                            45.512355211025046
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544531757.224281
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.95048486816896,
+                            45.49757769346626
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544532608.997121
+                    }
+                }
+            ]
+        },
+        "start_time": 1544531884.296473,
+        "end_time": 1544532608.997121,
+        "parking_verification_url": "https://fake_operator.co/sl0ceth.jpg",
+        "standard_cost": 265,
+        "actual_cost": 308
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "accuracy": 17,
+        "trip_id": "303919d8-b8f3-4171-a2fc-f1b88d3909e2",
+        "trip_duration": 582,
+        "trip_distance": 2330,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.5839543781992,
+                            45.41886094957372
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544523895.289194
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.60194046954449,
+                            45.40215663796214
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544525494.535635
+                    }
+                }
+            ]
+        },
+        "start_time": 1544524911.79314,
+        "end_time": 1544525494.535635,
+        "parking_verification_url": "https://fake_operator.co/7b5m5ok.jpg"
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "accuracy": 9,
+        "trip_id": "d1c1eb56-2810-4c9f-a831-e6e64238b32f",
+        "trip_duration": 168,
+        "trip_distance": 675,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.95048486816896,
+                            45.49757769346626
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544532608.997121
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.95516638619833,
+                            45.502682996786234
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544533352.477051
+                    }
+                }
+            ]
+        },
+        "start_time": 1544533183.582276,
+        "end_time": 1544533352.477051,
+        "standard_cost": 115,
+        "actual_cost": 137
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "accuracy": 11,
+        "trip_id": "6191234b-f643-42a6-a4b1-28d8a7c3f9bc",
+        "trip_duration": 671,
+        "trip_distance": 2686,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.60194046954449,
+                            45.40215663796214
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544525494.535635
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.58401644545066,
+                            45.38156100599546
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544526631.175288
+                    }
+                }
+            ]
+        },
+        "start_time": 1544525959.436043,
+        "end_time": 1544526631.175288,
+        "parking_verification_url": "https://fake_operator.co/m3hat33.jpg",
+        "standard_cost": 250,
+        "actual_cost": 281
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "accuracy": 4,
+        "trip_id": "287b44b1-3075-4bae-83b6-f842f96b6e60",
+        "trip_duration": 1072,
+        "trip_distance": 4290,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.95516638619833,
+                            45.502682996786234
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544533352.477051
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.9671041982852,
+                            45.46506117576508
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544536372.807792
+                    }
+                }
+            ]
+        },
+        "start_time": 1544535300.206669,
+        "end_time": 1544536372.807792,
+        "parking_verification_url": "https://fake_operator.co/cwmzwxu.jpg",
+        "standard_cost": 340,
+        "actual_cost": 374
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "accuracy": 5,
+        "trip_id": "e6ba2fa8-ded5-438f-9050-d0e5cd430c67",
+        "trip_duration": 810,
+        "trip_distance": 3242,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.58401644545066,
+                            45.38156100599546
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544526631.175288
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.59220212065318,
+                            45.4101153957808
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544527725.95393
+                    }
+                }
+            ]
+        },
+        "start_time": 1544526915.35278,
+        "end_time": 1544527725.95393,
+        "parking_verification_url": "https://fake_operator.co/3u2l74y.jpg",
+        "actual_cost": 262
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "accuracy": 9,
+        "trip_id": "78952a58-0c4e-406f-b9be-553fd19afd17",
+        "trip_duration": 992,
+        "trip_distance": 3969,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.9671041982852,
+                            45.46506117576508
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544536372.807792
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.95307878341613,
+                            45.43079123703573
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544538978.147272
+                    }
+                }
+            ]
+        },
+        "start_time": 1544537985.891405,
+        "end_time": 1544538978.147272,
+        "standard_cost": 325,
+        "actual_cost": 341
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "accuracy": 7,
+        "trip_id": "84b9bb93-afe7-44de-8dfd-5509ef99c7e3",
+        "trip_duration": 566,
+        "trip_distance": 2266,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.59220212065318,
+                            45.4101153957808
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544527725.95393
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.57206109636685,
+                            45.42476572267878
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544530798.688042
+                    }
+                }
+            ]
+        },
+        "start_time": 1544530232.090513,
+        "end_time": 1544530798.688042,
+        "standard_cost": 220,
+        "actual_cost": 233
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "accuracy": 0,
+        "trip_id": "6c9fa7a5-0eed-4660-abdf-a34c33f9eaee",
+        "trip_duration": 284,
+        "trip_distance": 1136,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.95307878341613,
+                            45.43079123703573
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544538978.147272
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.96630204136562,
+                            45.43504940676683
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544541016.157797
+                    }
+                }
+            ]
+        },
+        "start_time": 1544540732.024549,
+        "end_time": 1544541016.157797,
+        "actual_cost": 203
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "accuracy": 5,
+        "trip_id": "6bc8f10a-6102-4a75-951a-134ecd2d87c8",
+        "trip_duration": 658,
+        "trip_distance": 2634,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.96630204136562,
+                            45.43504940676683
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544541016.157797
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.97542650695328,
+                            45.45783572874558
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544543992.008955
+                    }
+                }
+            ]
+        },
+        "start_time": 1544543333.322718,
+        "end_time": 1544543992.008955,
+        "standard_cost": 235,
+        "actual_cost": 305
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "accuracy": 3,
+        "trip_id": "78a2e9d9-8253-4190-b41d-1797e8ca96ca",
+        "trip_duration": 699,
+        "trip_distance": 2797,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.74501544569743,
+                            45.584081389720325
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544530798.688042
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.74242275595007,
+                            45.55901583998692
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544535080.861136
+                    }
+                }
+            ]
+        },
+        "start_time": 1544534381.467905,
+        "end_time": 1544535080.861136,
+        "parking_verification_url": "https://fake_operator.co/wieg1sn.jpg",
+        "standard_cost": 250
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "b46288dd-4cb3-47ae-85ef-20e63cc04e11",
+        "vehicle_id": "W0P1DD",
+        "vehicle_type": "scooter",
+        "propulsion_type": [
+            "combustion"
+        ],
+        "accuracy": 6,
+        "trip_id": "3c0be442-fed5-43c2-9a38-f3d6640940ea",
+        "trip_duration": 591,
+        "trip_distance": 2364,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.97542650695328,
+                            45.45783572874558
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544543992.008955
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -123.00519791899471,
+                            45.453937990334
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544545518.131431
+                    }
+                }
+            ]
+        },
+        "start_time": 1544544926.916215,
+        "end_time": 1544545518.131431,
+        "parking_verification_url": "https://fake_operator.co/h1j65ll.jpg"
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "9f02e03a-399e-4024-b2d3-2088de141f22",
+        "vehicle_id": "VDYTFN",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric_assist"
+        ],
+        "accuracy": 5,
+        "trip_id": "c486a4ef-f6bd-4976-8e0b-2eb7dc20873f",
+        "trip_duration": 267,
+        "trip_distance": 1068,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.74242275595007,
+                            45.55901583998692
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544535080.861136
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.72926028591347,
+                            45.56169249183718
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544536925.86206
+                    }
+                }
+            ]
+        },
+        "start_time": 1544536658.790359,
+        "end_time": 1544536925.86206
+    },
+    {
+        "provider_id": "6d9dbb76-8a81-4045-8866-3f2a36f8858d",
+        "provider_name": "fake_operator",
+        "device_id": "08bfc097-70b6-41f7-b9e7-238b71b49250",
+        "vehicle_id": "D8PMNS",
+        "vehicle_type": "bicycle",
+        "propulsion_type": [
+            "electric"
+        ],
+        "accuracy": 2,
+        "trip_id": "23232bd8-358b-4848-9e15-c063bfc695e7",
+        "trip_duration": 1354,
+        "trip_distance": 5417,
+        "route": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.52473802698886,
+                            45.5107476683009
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544525370.342137
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -122.46367196310324,
+                            45.53393270847247
+                        ]
+                    },
+                    "properties": {
+                        "timestamp": 1544530222.754754
+                    }
+                }
+            ]
+        },
+        "start_time": 1544528868.478639,
+        "end_time": 1544530222.754754,
+        "parking_verification_url": "https://fake_operator.co/wjjrs3q.jpg",
+        "actual_cost": 401
+    }
+]
