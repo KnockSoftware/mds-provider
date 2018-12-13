@@ -86,21 +86,28 @@ class ProviderClient(ProviderClientBase):
     def __init__(self, provider):
         self.provider = provider
 
-    def get_trips(self, **kwargs):
-        return list(self.iterate_trips_pages(**kwargs))
+    def iterate_trips(self, **kwargs):
+        return self.iterate_items(mds.TRIPS, **kwargs)
 
-    def get_status_changes(self, **kwargs):
-        return list(self.iterate_status_change_pages(**kwargs))
+    def iterate_status_changes(self, **kwargs):
+        return self.iterate_items(mds.STATUS_CHANGES, **kwargs)
 
-    def iterate_trips_pages(self, paging=True, **kwargs):
-        params = self._prepare_trips_params(**kwargs)
-        return self.request(mds.TRIPS, params, paging)
+    def iterate_items(self, endpoint, **kwargs):
+        for page in self.iterate_pages(endpoint, **kwargs):
+            for item in page['data'][endpoint]:
+                yield item
 
-    def iterate_status_change_pages(self, paging=True, **kwargs):
-        params = self._prepare_status_changes_params(**kwargs)
-        return self.request(mds.STATUS_CHANGES, params, paging)
+    def iterate_pages_of_trips(self, paging=True, **kwargs):
+        return self.iterate_pages(mds.TRIPS, paging=paging, **kwargs)
 
-    def request(self, endpoint, params, paging):
+    def iterate_pages_of_status_changes(self, paging=True, **kwargs):
+        return self.iterate_pages(mds.STATUS_CHANGES, paging=paging, **kwargs)
+
+    def iterate_pages(self, endpoint, paging=True, **kwargs):
+        params = getattr(self, f'_prepare_{endpoint}_params')(**kwargs)
+        return self._request(endpoint, params, paging)
+
+    def _request(self, endpoint, params, paging):
         url = self._build_url(self.provider, endpoint)
         session = self._auth_session(self.provider)
         for page in self._iterate_pages_from_session(session, endpoint, url, params):

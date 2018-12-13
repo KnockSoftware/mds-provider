@@ -2,4 +2,4 @@
 Module implementing the MDS Provider API.
 """
 
-from mds.api.client import MultipleProviderClient
+from mds.api.client import ProviderClient, MultipleProviderClient

@@ -5,7 +5,7 @@ from urllib3.util import parse_url
 
 from mds.fake.server import make_static_server_app
 from mds.providers import Provider
-from mds.api import MultipleProviderClient
+from mds.api import ProviderClient
 
 
 def requests_mock_with_app(app, netloc='testserver'):
@@ -51,29 +51,22 @@ class APITest(unittest.TestCase):
             page_size=20,
         )
 
-    def _all_items_from_app(self, app, endpoint='trips', get_method_kwargs={}):
-        with mock_provider(app) as provider:
-            client = MultipleProviderClient(providers=[provider])
-            method = getattr(client, f'get_{endpoint}')
-            pages_by_provider = method(**get_method_kwargs)
 
-            items = []
-            for page in pages_by_provider[provider]:
-                for item in page['data'][endpoint]:
-                    items.append(item)
-            return items
+    def _items_from_app(self, app, endpoint='trips', **kwargs):
+        with mock_provider(app) as provider:
+            client = ProviderClient(provider)
+            return list(client.iterate_items(endpoint, **kwargs))
 
     def test_single_provider_paging_enabled(self):
         # empty provider should return zero trips
-        trips = self._all_items_from_app(self.empty_app, 'trips')
+        trips = self._items_from_app(self.empty_app, 'trips')
         self.assertEqual(len(trips), 0)
 
         # 100-trip provider should return all trips
-        trips = self._all_items_from_app(self.bogus_data_app, 'trips')
+        trips = self._items_from_app(self.bogus_data_app, 'trips')
         self.assertEqual(len(trips), 100)
 
     def test_single_provider_disable_paging(self):
         # Turn off paging; should get just first 20 trips
-        trips = self._all_items_from_app(self.bogus_data_app, 'trips',
-                                         get_method_kwargs=dict(paging=False))
+        trips = self._items_from_app(self.bogus_data_app, 'trips', paging=False)
         self.assertEqual(len(trips), 20)
